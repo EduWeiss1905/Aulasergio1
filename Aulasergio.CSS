@@ -1,0 +1,15 @@
+/* Classe para formatar imagem como círculo */
+.circle-image{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.circle-image{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
